@@ -1,0 +1,181 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css); /* google雲端字體 思源黑體*/
+/* CSS Document */
+/* body */
+body {
+	font-family:"Noto Sans TC", sans-serif;/* google雲端字體 思源黑體*/
+    background-color: #fff;
+    margin: 0;
+    
+}
+footer{
+	font-size:14px;
+	font-weight: 200;
+    line-height: 1em;
+	padding: 20px;
+}
+
+/* 網站標題 */
+h1 {
+    font-size: 1em;
+    color: #CA5D87;
+    text-align: center;
+}
+
+/* 標題 */
+h2 {
+    color: #CA5D87;
+    font-size:20px;
+	font-weight: 700;
+    line-height: 1.5em;
+    text-align: center;
+    margin: 20px;
+}
+.subcopy {
+    font-size: 16px;
+	font-weight: 300;
+	color: #0DA6C4;
+    text-align: center;
+    margin: 0.5em 0 1em;
+}
+
+/* 回到本頁開頭 */
+.pagetop {
+    text-align: right;
+    margin: 1em;
+}
+
+/* 著作權資訊 */
+.copyright {
+    border-top: solid 5px #CA5D87;
+    text-align: center;
+	padding-top: 20px;
+}
+
+/* article */
+article {
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 2em;
+    padding: 32px 16px 32px;
+
+}
+
+/* #part1,#part2,#part3,#part4,#part5變更了背景色與文字顏色 */
+#part1,#part2,#part3,#part4,#part5{
+	padding: 30px 20px;
+}
+#part2,#part4,#part6{
+	background: linear-gradient(0deg, #ff9696 0%, #d0f9ff 100%);
+}
+#part1,#part3,#part5,#part7{
+    background: linear-gradient(0deg, #d0f9ff 0%, #ff9696 100%);
+}
+header{
+    background-color: #ff9696;
+}
+
+/* 設定了內容寬度的上限 */
+.inner {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* 照片是靠右對齊的section */
+.imageunit {
+    margin: 0;
+    overflow: hidden;
+}
+.imageunit img {
+    float: right;
+    margin: 0 0 10px 20px;
+    width: 50%;
+    height: auto;
+}
+.imageunit1 {
+    margin: 0;
+    overflow: hidden;
+}
+.imageunit1 img {
+    float: left;
+    margin: 0 20px 10px 0;
+    width: 50%;
+    height: auto;
+}
+.imageunit iframe {
+    float: left;
+    margin: 0 20px 10px 0px;
+    width: 50%;
+
+}
+.imageunit p {
+    margin: 0 0 1em;
+}
+
+/* 導覽列 */
+.navigation ul {
+    margin: 0;
+    padding: 4px;
+    text-align: center;
+}
+.navigation ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 5px;
+    font-size: 0.875em;
+}
+.navigation ul li a {
+    color:#CA5D87;
+    text-decoration: none;
+}
+.navigation ul li a:hover {
+    color: #62d5e8;
+    text-decoration: underline;
+}
+/* 超連結設定 */
+a{
+	color: #42C5EA;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #CA5D87;
+	text-decoration: none;
+}
+
+
+/* 主要視覺設計 */
+.mainvisual {
+    background-color:#BCA0D1;
+}
+.mainvisual img {
+    display: block;
+    margin: 0 auto;    /*水平置中*/
+    max-width: 100%;  
+    height: auto;
+}
+/* 表格 */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td {
+    border-bottom: solid 1px #cccccc;
+    padding: 10px;
+    text-align: left;    
+}
+.catalogue{
+    background-color: rgba(255, 255, 255, 0);
+    float: right;
+    position: sticky;
+    top: 600px;
+    line-height: 2em;
+    font-size: 20px;
+    font-weight: bold;
+    border-left: 2px solid orange
+}
+
+
+
+
+
